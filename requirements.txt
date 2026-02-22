@@ -1,0 +1,7 @@
+numpy
+pyyaml
+tqdm
+opencv-python
+scipy
+matplotlib
+# torch / torchvision can be added here if needed (CPU or CUDA pinned versions)
