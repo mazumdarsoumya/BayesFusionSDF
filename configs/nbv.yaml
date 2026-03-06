@@ -1,0 +1,7 @@
+# Purpose: NBV planning config
+nbv:
+  enabled: true
+  candidates: 48
+  fov_deg: 70
+  eps_band: 0.03
+  radius_mult: 1.8

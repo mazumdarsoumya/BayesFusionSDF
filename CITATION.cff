@@ -1,0 +1,10 @@
+# Purpose: Citation metadata for the repository
+cff-version: 1.2.0
+title: "BayesFusion-SDF: CPU-only probabilistic SDF fusion with NBV"
+message: "If you use this code, please cite the repository and the related paper draft."
+authors:
+  - family-names: "Rakesh"
+    given-names: "Vineet Kumar"
+version: 0.1.0
+date-released: 2026-02-14
+license: MIT

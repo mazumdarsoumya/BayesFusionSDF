@@ -1,0 +1,11 @@
+﻿# Purpose: Baseline TSDF config (CO3D)
+data:
+  root: data/co3d/dummy
+  stride: 3
+  max_frames: 150
+  depth_scale: 10000.0
+tsdf:
+  voxel: 0.05
+  trunc: 0.15
+output:
+  out_dir: outputs/base

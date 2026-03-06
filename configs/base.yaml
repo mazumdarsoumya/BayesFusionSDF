@@ -1,0 +1,11 @@
+# Purpose: Baseline TSDF config
+data:
+  root: data/synth/scene0000
+  stride: 1
+  max_frames: 60
+  depth_scale: 1000.0
+tsdf:
+  voxel: 0.02
+  trunc: 0.08
+output:
+  out_dir: outputs/base

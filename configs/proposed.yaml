@@ -1,0 +1,22 @@
+# Purpose: Full BayesFusion-SDF config (MAP+variance)
+data:
+  root: data/synth/scene0000
+  stride: 1
+  max_frames: 60
+  depth_scale: 1000.0
+model:
+  voxel: 0.02
+  band: 0.08   # note: also becomes TSDF trunc in run_ours.py
+  lambda_smooth: 1.0
+  lambda_anchor: 20.0
+  use_anchor: true
+  heteroscedastic: true
+solver:
+  tol: 1.0e-5
+  maxiter: 150
+variance:
+  probes: 16
+  tol: 1.0e-4
+  maxiter: 200
+output:
+  out_dir: outputs/ours

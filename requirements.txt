@@ -1,7 +1,19 @@
-numpy
-pyyaml
-tqdm
-opencv-python
-scipy
-matplotlib
-# torch / torchvision can be added here if needed (CPU or CUDA pinned versions)
+# BayesFusion-SDF (CPU-only) — Python requirements
+# NOTE: System/conda dependencies (not pip): mkl, mkl-service, eigen, ceres-solver,
+# compilers (gcc/clang/msvc), cmake, ninja, pkg-config
+
+pip==24.0
+
+numpy==1.26.4
+scipy==1.12.0
+matplotlib==3.8.4
+PyYAML==6.0.2
+tqdm==4.66.5
+
+open3d==0.19.0
+
+pybind11==3.0.1
+
+# Dev / QA
+ruff==0.9.4
+pytest==8.3.4
